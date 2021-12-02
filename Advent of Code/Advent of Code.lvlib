@@ -9,9 +9,17 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Navigation Command.ctl" Type="VI" URL="../Navigation Command.ctl"/>
+			<Item Name="Navigation Directions.ctl" Type="VI" URL="../Navigation Directions.ctl"/>
+		</Item>
+		<Item Name="Count Times Data Increases in Value.vi" Type="VI" URL="../Count Times Data Increases in Value.vi"/>
 		<Item Name="Parse Sonar Data.vi" Type="VI" URL="../Parse Sonar Data.vi"/>
+		<Item Name="Parse Navigation Commands.vi" Type="VI" URL="../Parse Navigation Commands.vi"/>
 	</Item>
-	<Item Name="Count Times Data Increases in Value.vi" Type="VI" URL="../Count Times Data Increases in Value.vi"/>
 	<Item Name="Day-01 pt 1 Sonar Sweep Decreasing Value Count.vi" Type="VI" URL="../Day-01 pt 1 Sonar Sweep Decreasing Value Count.vi"/>
 	<Item Name="Day-01 pt 2 Sonar Sweep Moving Average.vi" Type="VI" URL="../Day-01 pt 2 Sonar Sweep Moving Average.vi"/>
+	<Item Name="Day-02 pt 1 Submarine Navigation.vi" Type="VI" URL="../Day-02 pt 1 Submarine Navigation.vi"/>
+	<Item Name="Day-02 pt 2 Submarine Navigation.vi" Type="VI" URL="../Day-02 pt 2 Submarine Navigation.vi"/>
 </Library>
